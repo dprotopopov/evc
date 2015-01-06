@@ -1,0 +1,19 @@
+<div data-options="dxView : { name: 'View1' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <div id="toastContainer" data-bind="dxToast:{message:'Unlock options to automatically find out EV=0 level' }"></div>
+        <div id="scrollViewContainer" data-bind="dxScrollView: { }">
+            <div id="byColumn">
+                <input id="threeEv" name="threeEv" type="hidden" class="Oswald" />
+                <input id="camera" name="camera" type="hidden" class="Oswald" />
+                <div data-bind="dxTabs:switchToolbarOptions4"></div>
+            </div>
+            <div id="byRow">
+                <input id="scroller" name="scroller" type="hidden" class="Oswald" />
+                <div data-bind="dxTabs:switchToolbarOptions5"></div>
+            </div>
+            <div id="buttons">
+                <div data-bind="dxTabs:buttonToolbarOptions"></div>
+            </div>
+        </div>
+    </div>
+</div>

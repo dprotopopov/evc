@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="64189RBADESIGNLLC.EvC" Version="1.1.0.0" Publisher="CN=AF4638CB-3520-4C8D-AF2C-2103D90E5744" />
+  <Properties>
+    <DisplayName>EvC</DisplayName>
+    <PublisherDisplayName>RBA DESIGN LLC</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="EvC.Win8" StartPage="index.html">
+      <m2:VisualElements DisplayName="EvC" Description="In photography, exposure value (EV) is a number that represents a combination of a camera's shutter speed and f-number, such that all combinations that yield the same exposure have the same EV value (for any fixed scene luminance). Exposure value is also used to indicate an interval on the photographic exposure scale, with 1 EV corresponding to a standard power-of-2 exposure step, commonly referred to as a stop." BackgroundColor="#cccccc" ForegroundText="light" Square150x150Logo="images\logo.png" Square30x30Logo="images\smalllogo.png">
+        <m2:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\Square310x310Logo.png" Square70x70Logo="images\Square70x70Logo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="portrait" />
+          <m2:Rotation Preference="landscape" />
+          <m2:Rotation Preference="portraitFlipped" />
+          <m2:Rotation Preference="landscapeFlipped" />
+        </m2:InitialRotationPreference>
+        <m2:SplashScreen Image="images\splashscreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,12 @@
+<div data-options="dxView : { name: 'View2', title: 'Mode' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <div id="scrollViewContainer" data-bind="dxScrollView: { }">
+            <div id="toastContainer" data-bind="dxToast: {message: 'Choose values of EV=0 level setup' }"></div>
+            <div data-bind="dxTabs: radioGroupOptions"></div>
+            <div class="text-center">
+                <input id="camera0" name="camera0" type="hidden" class="Oswald" />
+            </div>
+            <div data-bind="dxTextArea: textAreaOptions"></div>
+        </div>
+    </div>
+</div>

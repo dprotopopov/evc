@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>eaaaf8e1-f2a1-419b-b1f2-eadc8f59de0e</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <ApplicationPage>app.html</ApplicationPage>
+    <Name>EvC.Shared</Name>
+    <RootNamespace>evc</RootNamespace>
+    <Links>
+      <LinkDescription>
+        <Project>b7639ad6-0ec2-46e7-bb1a-8b0f25b31f60</Project>
+        <Path>www</Path>
+      </LinkDescription>
+      <LinkDescription>
+        <Project>90af8d6a-89de-4789-8fb0-3eaa34b90ebc</Project>
+        <Path />
+      </LinkDescription>
+    </Links>
+    <ApkDexFilePackageName>com.devextreme.EvC.Shared</ApkDexFilePackageName>
+    <XapPackagePublisherID>{4e8dcdd9-7e0e-4448-bd0e-0ae1f4384381}</XapPackagePublisherID>
+    <XapPackageProductID>{411efb8a-5ef7-4748-aed7-706defe3a7e3}</XapPackageProductID>
+    <ScreenOrientation>Default</ScreenOrientation>
+    <ApplicationTitle>EvC.Shared</ApplicationTitle>
+    <VersionPackage>1.0</VersionPackage>
+    <ShowSplashScreen>True</ShowSplashScreen>
+    <KeyApkPath />
+    <VersionCode>1</VersionCode>
+    <TemplateFileApk />
+    <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
+    <KeyIpaPath />
+    <ProvisionProfile />
+    <IpaPrivateKeyFile />
+    <TemplateFileIpa />
+    <UseCustomTemplateNameIpa>False</UseCustomTemplateNameIpa>
+    <IpaDevicesFamily>Universal</IpaDevicesFamily>
+    <BundleIdentifier>EvC.Shared</BundleIdentifier>
+    <IpaSupportedLanguages />
+    <TemplateFileXap />
+    <UseCustomTemplateNameXap>False</UseCustomTemplateNameXap>
+    <XapSupportedLanguages />
+    <DefaultLanguageXAP>en-US</DefaultLanguageXAP>
+    <AuthorKeyWgtPath />
+    <DistributorKeyWgtPath />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\font-awesome.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\font-awesome.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll-2.13.2.full.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.animation-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.icons-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.scroller-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.scroller.android-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.scroller.android-holo-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.scroller.ios-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.scroller.ios7-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.scroller.jqm-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.scroller.sense-ui-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.scroller.wp-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.widget-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.widget.android-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.widget.android-holo-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.widget.ios-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.widget.ios7-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.widget.jqm-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.widget.sense-ui-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\mobiscroll.widget.wp-2.13.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="data\db.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="evc.shared.config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="fonts\FontAwesome.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="fonts\Oswald-Light.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="fonts\Oswald-Regular.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="fonts\Oswald-Bold.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo.png" />
+    <Content Include="js\dx.all.js" />
+    <Content Include="js\dx.all.debug.js" />
+    <Content Include="js\localization\dx.all.de.js" />
+    <Content Include="js\localization\dx.all.ja.js" />
+    <Content Include="js\localization\dx.all.ru.js" />
+    <Content Include="js\globalize.min.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-2.1.1.min.js" />
+    <Content Include="js\knockout-3.2.0.js" />
+    <Content Include="css\dx.spa.css" />
+    <Content Include="css\dx.common.css" />
+    <Content Include="css\dx.dark.css" />
+    <Content Include="css\dx.light.css" />
+    <Content Include="css\dx.android.holo-dark.css" />
+    <Content Include="css\dx.android.holo-light.css" />
+    <Content Include="css\dx.android5.light.css" />
+    <Content Include="css\dx.ios.default.css" />
+    <Content Include="css\dx.ios7.default.css" />
+    <Content Include="css\dx.win8.black.css" />
+    <Content Include="css\dx.win8.white.css" />
+    <Content Include="css\dx.tizen.black.css" />
+    <Content Include="css\dx.tizen.white.css" />
+    <Content Include="Oswald.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="packages.config">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="photoscroller.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="photoscroller.js" />
+    <Content Include="Scripts\jquery-1.7-vsdoc.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\jquery-1.7.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\jquery-1.7.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll-2.13.2.full.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-cs.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-de.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-en-UK.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-es.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-fa.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-fr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-hu.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-it.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-ja.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-nl.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-no.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-pl.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-pt-BR.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-pt-PT.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-ro.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-ru-UA.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-ru.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-sk.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-sv.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-tr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2-zh.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.core-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.datetime-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.list-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.scroller-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.select-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.util.datetime-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.widget-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.widget.android-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.widget.android-holo-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.widget.ios-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.widget.ios7-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.widget.jqm-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.widget.sense-ui-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\mobiscroll.widget.wp-2.13.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\about.html" />
+    <Content Include="views\blank.html" />
+    <Content Include="views\help.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\View1.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\View1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\html5shiv\dist\html5shiv.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap.css.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.css.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\js\bootstrap.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\weather-icons\css\weather-icons.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\weather-icons\css\weather-icons.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\weather-icons\font\WeatherIcons-Regular.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\weather-icons\font\weathericons-regular-webfont.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\weather-icons\font\weathericons-regular-webfont.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\weather-icons\font\weathericons-regular-webfont.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\weather-icons\font\weathericons-regular-webfont.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\whhg-font\css\whhg.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\whhg-font\font\webhostinghub-glyphs.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\whhg-font\font\webhostinghub-glyphs.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\whhg-font\font\webhostinghub-glyphs.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\View2.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\View2.js">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bower_components\" />
+    <Folder Include="bower_components\html5shiv\" />
+    <Folder Include="bower_components\html5shiv\dist\" />
+    <Folder Include="bower_components\bootstrap\" />
+    <Folder Include="bower_components\bootstrap\dist\" />
+    <Folder Include="bower_components\bootstrap\dist\js\" />
+    <Folder Include="bower_components\bootstrap\dist\css\" />
+    <Folder Include="bower_components\bootstrap\dist\fonts\" />
+    <Folder Include="bower_components\weather-icons\" />
+    <Folder Include="bower_components\weather-icons\css\" />
+    <Folder Include="bower_components\weather-icons\font\" />
+    <Folder Include="bower_components\whhg-font\" />
+    <Folder Include="bower_components\whhg-font\css\" />
+    <Folder Include="bower_components\whhg-font\font\" />
+    <Folder Include="Content\" />
+    <Folder Include="css\" />
+    <Folder Include="data\" />
+    <Folder Include="fonts\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+    <Folder Include="js\localization\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.xml" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_36_36.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_48_48.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_72_72.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_96_96.png" />
+    <None Include="Resources\PackageIcons.Android.splash_1280_720.png" />
+    <None Include="Resources\PackageIcons.Android.splash_200_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_200.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_480.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_800.png" />
+    <None Include="Resources\PackageIcons.Android.splash_720_1280.png" />
+    <None Include="Resources\PackageIcons.Android.splash_800_480.png" />
+    <None Include="Resources\PackageIcons.iOS.Default%402x~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-568h%402x~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-667h.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-736h.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape%402x~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape-736h.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Portrait%402x~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Portrait~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.icon%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-60%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-60%403x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-60.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-76%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-76.png" />
+    <None Include="Resources\PackageIcons.iOS.icon.png" />
+    <None Include="Resources\PackageIcons.iOS.iTunesArtwork.png" />
+    <None Include="Resources\PackageIcons.Tizen.icon_117_117.png" />
+    <None Include="Resources\PackageIcons.WP.ApplicationIcon_99_99.png" />
+    <None Include="Resources\PackageIcons.WP.Background.png_144_144.png" />
+    <None Include="Resources\PackageIcons.WP.SplashScreenImage_768_1280.jpg" />
+    <None Include="Resources\PackageIcons.WP.TileMedium.png" />
+    <None Include="Resources\PackageIcons.WP.TileSmall.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences">
+    <Message Text="Copying references to output dir..." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+  </Target>
+  <Target Name="CopyFilesToOutputDirectory">
+    <Message Text="Copying files to output dir..." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(GeneratedJavascript->'%(Identity)')" DestinationFiles="@(GeneratedJavascript-&gt;'%(Identity)'-&gt;'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+  </Target>
+  <Target Name="CoreCompile">
+    <!--<Message Text="'$(MSBuildToolsPath)'"></Message>-->
+    <!--<Message Text="'$(BuildingProject)'"></Message>-->
+    <!--<Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high"></Message>-->
+    <!--<Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high"></Message>-->
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>

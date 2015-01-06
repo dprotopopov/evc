@@ -1,0 +1,22 @@
+{
+  "name": "evc",
+  "version": "0.0.0",
+  "authors": [
+    "dprotopopov <protopopov@narod.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "html5shiv": "~3.7.2",
+    "weather-icons": "https://github.com/erikflowers/weather-icons.git#~1.3.2",
+    "glyphicons_free": "http://glyphicons.com/files/glyphicons_free.zip",
+    "whhg-font": "http://www.webhostinghub.com/glyphs/resources/whhg-font.zip"
+  }
+}
